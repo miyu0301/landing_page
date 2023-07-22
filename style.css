@@ -2,20 +2,99 @@
 body{
   font-family: "Judson", serif;
 }
+/* color */
 .main-color{
   background-color: #7FBCD2;
 }
 .sub-color{
   background-color: #ADCFD2;
 }
+.about-color{
+  background-color: #FFF7D8;
+}
 .location-color{
   background-color: #DEEFE5;
 }
-.artist-color{
-  background-color: #FFF7D8;
+/* sizing for picture and figure */
+/* top */
+.top-content{
+  position: relative;
+  height: 80vh;
 }
-.artist-photo{
+.top-square-big{
+  width: 30vw;
+  height: 30vh;
+  position: absolute;
+  left: 30vw;
+  top: 5vh;
+}
+.top-square-small{
+  width: 15vw;
+  height: 15vh;
+  position: absolute;
+  bottom: 5vh;
+}
+.top-image{
+  object-fit: cover;
+  position: absolute;
+  width: 65vw;
+  height: 60vh;
+  left: 5vw;
+  top: 10vh;
+}
+.top-text{
+  position: absolute;
+  width: 35vw;
+  right: 0;
+  bottom: 0;
+}
+/* about */
+.about-photo{
   width: 300px;
   height: 300px;
   border-radius: 50%;
+}
+/* project */
+.project-content{
+  height: 110vh;
+  position: relative;
+}
+.project-headline{
+  position: absolute;
+  width: 40vw;
+  z-index: 1;
+  left: 40vw;
+  top: 40vh;
+}
+.project-sup-headline{
+  position: absolute;
+  width: 30vw;
+  bottom: 0;
+  left: 10vw;
+  z-index: 1;
+}
+.project-photo-drawing{
+  width: 50vw;
+  position: absolute;
+  top: 0;
+  left: 20vw;
+}
+.project-photo-dack{
+  width: 40vw;
+  position: absolute;
+  left: 0;
+  top: 45vh;
+}
+.project-photo-book{
+  width: 35vw;
+  position: absolute;
+  right: 0;
+  top: 50vh;
+}
+.project-square{
+  width: 60vw;
+  height: 30vw;
+  position: absolute;
+  right: 5vw;
+  top: 10vh;
 }
