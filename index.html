@@ -9,86 +9,88 @@
   <link rel="stylesheet" href="style.css" />
   </head>
 <body>
-  <header class="container">
+  <header class="container justify-content-between">
     <h2>Moriarty Gallery</h2>
   </header>
-  <nav class="nav sub-color justify-content-center fixed-top my-5">
+  <nav class="nav sub-color d-none d-sm-flex justify-content-center fixed-top my-5">
     <ul id="scrolll-target" class="nav h3">
-      <li><a class="nav-link text-black mx-5" href="#link-about">About</a></li>
-      <li><a class="nav-link text-black mx-5" href="#link-project">Project</a></li>
-      <li><a class="nav-link text-black mx-5" href="#link-shop">Shop</a></li>
-      <li><a class="nav-link text-black mx-5" href="#link-location">Location</a></li>
+      <li><a class="nav-link text-black mx-md-4 mx-2" href="#link-about">About</a></li>
+      <li><a class="nav-link text-black mx-md-4 mx-2" href="#link-project">Project</a></li>
+      <li><a class="nav-link text-black mx-md-4 mx-2" href="#link-shop">Shop</a></li>
+      <li><a class="nav-link text-black mx-md-4 mx-2" href="#link-location">Location</a></li>
     </ul>
   </nav>
-  <main data-bs-spy="scroll" data-bs-target="#scrolll-target" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-    <section class="container-lg top-content">
-      <div class="main-color top-square-big"></div>
-      <img class="top-image" src="https://source.unsplash.com/ZXMkcHjKx8I" alt="top-art">
-      <div class="main-color top-square-small"></div>
-      <div class="main-color top-text">
-        <p class="font-big">Delicate Art,<br>Boundless World.</p>
-        <p class="font-midium">7.4.2033 - 27.7.2033</p>
-        <p class="font-small">Feeling an infinite world of boundless freedom through delicate brushstrokes, we proudly present an art gallery exhibition.</p>
-        <button type="button" class="btn btn-outline-dark px-4 py-2 my-2">Buy Ticket</button>
-      </div>
-    </section>
-    <section id="link-about" class="about-color">
-      <div class="container py-4">
-        <div class="row">
-          <div class="col-sm-3">
-            <img class="about-photo" src="https://source.unsplash.com/YVhSmMdTaOE" alt="moriarty">
-          </div>
-          <div class="col-sm-9">
-            <h1>Moriarty</h1>
-            <p class="font-small">From a young age, she enjoyed music and art, but it was when she discovered the ability to express herself through painting that she began her journey as an artist. Her delicate and beautiful touch is built upon her philosophy, taking viewers on a journey to her vast and liberating world.</p>
-            <div class="d-flex">
-              <p class="font-small pe-1">Follow her</p>                
-              <a class="py-1 px-1 text-black" href="#"><i class="bi bi-facebook"></i></a>
-              <a class="py-1 px-1 text-black" href="#"><i class="bi bi-instagram"></i></a>
+  <main>
+    <div data-bs-spy="scroll" data-bs-target="#scrolll-target" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+      <section class="container top-content">
+        <div class="main-color top-square-big"></div>
+        <img class="top-image" src="https://source.unsplash.com/ZXMkcHjKx8I" alt="top-art">
+        <div class="main-color top-square-small"></div>
+        <div class="main-color top-text">
+          <p class="font-big">Delicate Art,<br>Boundless World.</p>
+          <p class="font-midium">7.4.2033 - 27.7.2033</p>
+          <p class="font-small">Feeling an infinite world of boundless freedom through delicate brushstrokes, we proudly present an art gallery exhibition.</p>
+          <button type="button" class="btn btn-outline-dark px-4 py-2 my-2">Buy Ticket</button>
+        </div>
+      </section>
+      <section id="link-about" class="about-color">
+        <div class="container py-4">
+          <div class="row align-items-center">
+            <div class="col d-flex justify-content-center">
+              <img class="about-photo img-fluid" src="https://source.unsplash.com/YVhSmMdTaOE" alt="moriarty">
+            </div>
+            <div class="col-8 ps-4">
+              <h1>Moriarty</h1>
+              <p class="font-base lh-sm">From a young age, she enjoyed music and art, but it was when she discovered the ability to express herself through painting that she began her journey as an artist. Her delicate and beautiful touch is built upon her philosophy, taking viewers on a journey to her vast and liberating world.</p>
+              <div class="d-flex">
+                <p class="font-small pe-1">Follow her</p>                
+                <a class="py-1 px-1 text-black" href="#"><i class="bi bi-facebook"></i></a>
+                <a class="py-1 px-1 text-black" href="#"><i class="bi bi-instagram"></i></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-    </section>
-    <section id="link-project" class="container project-content">
-      <div class="sub-color project-square"></div>
-      <img class="project-photo-book" src="https://source.unsplash.com/qtUAV-_yWZc" alt="picture_book">
-      <img class="project-photo-drawing" src="https://source.unsplash.com/oo1RnFMrrh0" alt="painting">
-      <img class="project-photo-dack" src="https://source.unsplash.com/gK32-mZZ79w" alt="goose">
-      <h1 class="project-headline text-white">The Picture Book Project, finally unveiled.</h1>
-      <p class="project-sup-headline font-small">A picture book project based on her real-life experience of finding what is precious in her life. After 10 years, it is finally complete, allowing you to glimpse the process of creation, including sketches and work in progress.</p>
-    </section>
-    <section id="link-shop" class="px-5">
-      <div class="container py-4 px-5">
-        <div class="row pb-5">
-          <div class="col-sm-8 shop-content">
-            <div class="main-color shop-inline"></div>
-            <h1 class="ps-4">Art shop</h1>
-            <p class="font-small ps-4">Experience her world through her art printed on postcards and small items available for sale. Unique original artworks and high-quality reproductions printed with authentic precision are also available. Unlock exclusive pieces that are not found elsewhere; they are limited editions, so get yours early.</p>
-          </div>
-          <img class="col-sm-4" src="https://source.unsplash.com/BVYRU3aFKsU" alt="postcards">
-        </div>
-      </div>
-    </section>
-    <section id="link-location" class="location-color">
-      <div class="container">
-        <div class="row p-5">
-          <img class="col-sm-4" src="https://source.unsplash.com/16q-Yo-rCns" alt="map">
-          <div class="col-sm-8 ps-5 d-flex flex-column justify-content-center">
-            <div>
-              <h3>Location</h3>
-              <p class="font-small">41 Clarinet St, Vancouver</p>
+  
+      </section>
+      <section id="link-project" class="container project-content">
+        <div class="sub-color project-square"></div>
+        <img class="project-photo-book" src="https://source.unsplash.com/9DaOYUYnOls" alt="picture_book">
+        <img class="project-photo-drawing" src="https://source.unsplash.com/oo1RnFMrrh0" alt="painting">
+        <img class="project-photo-dack" src="https://source.unsplash.com/gK32-mZZ79w" alt="goose">
+        <h1 class="project-headline text-white">The Picture Book Project, finally unveiled.</h1>
+        <p class="project-sup-headline font-base">A picture book project based on her real-life experience of finding what is precious in her life. After 10 years, it is finally complete, allowing you to glimpse the process of creation, including sketches and work in progress.</p>
+      </section>
+      <section id="link-shop" class="px-5">
+        <div class="container py-4 px-5">
+          <div class="row pb-5">
+            <div class="col-sm-8 shop-content">
+              <div class="main-color shop-inline"></div>
+              <h1 class="ps-4">Art shop</h1>
+              <p class="font-base ps-4 lh-sm">Experience her world through her art printed on postcards and small items available for sale. Unique original artworks and high-quality reproductions printed with authentic precision are also available. Unlock exclusive pieces that are not found elsewhere; they are limited editions, so get yours early.</p>
             </div>
-            <div>
-              <h3>Hours</h3>
-              <p class="font-small">Monday - Friday : 9am - 7pm <br>
-                Saturday - Sunday : 10am - 6pm</p>
-            </div>
+            <img class="col-sm-4" src="https://source.unsplash.com/BVYRU3aFKsU" alt="postcards">
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section id="link-location" class="location-color">
+        <div class="container">
+          <div class="row p-5">
+            <img class="col-sm-4" src="https://source.unsplash.com/16q-Yo-rCns" alt="map">
+            <div class="col-sm-8 ps-5 d-flex flex-column justify-content-center">
+              <div>
+                <h3>Location</h3>
+                <p class="font-base">41 Clarinet St, Vancouver</p>
+              </div>
+              <div>
+                <h3>Hours</h3>
+                <p class="font-base">Monday - Friday : 9am - 7pm <br>
+                  Saturday - Sunday : 10am - 6pm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
   <footer class="main-color py-4">
     <div class="text-center">

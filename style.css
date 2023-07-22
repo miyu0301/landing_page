@@ -17,21 +17,26 @@ body{
 }
 /* font-size */
 .font-big{
-  font-size: 7vh;
+  font-size: 5vw;
   line-height: 7vh;
 }
 .font-midium{
-  font-size: 5vh;
+  font-size: 3vw;
   line-height: 5vh;
 }
+.font-base{
+  font-size: 2vw;
+  line-height: 3vw;
+}
 .font-small{
-  font-size: 2.5vh;
-  line-height: 4vh;
+  font-size: 1.5vw;
+  line-height: 2vw;
 }
 /* sizing for picture and figure */
 /* top */
 .top-content{
   position: relative;
+  width: 100%;
   height: 100vh;
 }
 .top-square-big{
@@ -67,12 +72,13 @@ body{
 /* about */
 .about-photo{
   width: 20vw;
-  height: 20vw;
+  /* height: 20vw; */
   border-radius: 50%;
 }
 /* project */
 .project-content{
-  height: 120vh;
+  height: 110vw;
+  width: 100%;
   position: relative;
 }
 .project-headline{
@@ -80,39 +86,39 @@ body{
   width: 40vw;
   z-index: 1;
   left: 40vw;
-  top: 45vh;
+  top: 30vw;
 }
 .project-sup-headline{
   position: absolute;
   width: 30vw;
   left: 20vw;
-  bottom: 10vh;
+  bottom: 15vw;
   z-index: 1;
 }
 .project-photo-drawing{
   width: 50vw;
   position: absolute;
-  top: 15vh;
+  top: 15vw;
   left: 20vw;
 }
 .project-photo-dack{
   width: 40vw;
   position: absolute;
-  top: 50vh;
-  left: 5vw;
+  top: 40vw;
+  left: 0vw;
 }
 .project-photo-book{
   width: 35vw;
   position: absolute;
-  top: 60vh;
-  right: 5vw;
+  top: 45vw;
+  right: 0vw;
 }
 .project-square{
   width: 60vw;
   height: 30vw;
   position: absolute;
-  top: 30vh;
-  right: 10vw;
+  top: 20vw;
+  right: 5vw;
 }
 /* shop */
 .shop-content{
@@ -120,7 +126,7 @@ body{
 }
 .shop-inline{
   width: 1vw;
-  height: 25vh;
+  height: 20vw;
   position: absolute;
   left: 0;
   top: 0;
