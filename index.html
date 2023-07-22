@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-</head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  </head>
 <body>
   <header>
     <h1>Moriarty Gallery</h1>
   </header>
-  <nav class="nav justify-content-center">
+  <nav class="nav justify-content-center sub-color">
     <ul id="scrolll-target" class="nav">
       <li><a class="nav-link" href="#link-about">About</a></li>
       <li><a class="nav-link" href="#link-project">Project</a></li>
@@ -19,52 +20,64 @@
     </ul>
   </nav>
   <main data-bs-spy="scroll" data-bs-target="#scrolll-target" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-    <section>
-      <img src="https://source.unsplash.com/ZXMkcHjKx8I" alt="top-art">
-      <div></div>
-      <div></div>
-      <div>
+    <section class="container">
+      <img class="img-fluid w-70" src="https://source.unsplash.com/ZXMkcHjKx8I" alt="top-art">
+      <div class="main-color w-70 h-70"></div>
+      <div class="main-color w-15 h-15"></div>
+      <div class="main-color">
         <h1>Delicate Art, Boundless World.</h1>
         <p>23.4.2033-23.6</p>
         <p>Feeling an infinite world of boundless freedom through delicate brushstrokes, we proudly present an art gallery exhibition.</p>
         <button>Buy ticket</button>
       </div>
     </section>
-    <section id="link-about">
-      <img src="https://source.unsplash.com/YVhSmMdTaOE" alt="moriarty">
-      <div>
-        <h1>Moriarty</h1>
-        <p>From a young age, she enjoyed music and art, but it was when she discovered the ability to express herself through painting that she began her journey as an artist. Her delicate and beautiful touch is built upon her philosophy, taking viewers on a journey to her vast and liberating world.</p>
+    <section id="link-about container" class="artist-color">
+      <div class="row">
+        <div class="col-sm-4">
+          <img class="artist-photo" src="https://source.unsplash.com/YVhSmMdTaOE" alt="moriarty">
+        </div>
+        <div class="col-sm-8">
+          <h1>Moriarty</h1>
+          <p>From a young age, she enjoyed music and art, but it was when she discovered the ability to express herself through painting that she began her journey as an artist. Her delicate and beautiful touch is built upon her philosophy, taking viewers on a journey to her vast and liberating world.</p>
+        </div>
       </div>
     </section>
     <section id="link-project">
       <h1>The Picture Book Project, finally unveiled.</h1>
-      <div></div>
-      <div></div>
+      <div class="sub-color"></div>
       <img src="https://source.unsplash.com/oo1RnFMrrh0" alt="painting">
       <img src="https://source.unsplash.com/gK32-mZZ79w" alt="goose">
       <img src="https://source.unsplash.com/qtUAV-_yWZc" alt="picture_book">
       <p>A picture book project based on her real-life experience of finding what is precious in her life. After 10 years, it is finally complete, allowing you to glimpse the process of creation, including sketches and work in progress.</p>
     </section>
-    <section id="link-shop">
-      <img src="https://source.unsplash.com/BVYRU3aFKsU" alt="postcards">
-      <h1>Art shop</h1>
-      <p>Experience her world through her art printed on postcards and small items available for sale. Unique original artworks and high-quality reproductions printed with authentic precision are also available. Unlock exclusive pieces that are not found elsewhere; they are limited editions, so get yours early.</p>
-    </section>
-    <section id="link-location">
-      <img src="https://source.unsplash.com/16q-Yo-rCns" alt="map">
-      <div>
-        <h4>location</h4>
-        <p>41 Clarinet St, Vancouver</p>
+    <section id="link-shop" class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="main-color"></div>
+          <h1>Art shop</h1>
+          <p>Experience her world through her art printed on postcards and small items available for sale. Unique original artworks and high-quality reproductions printed with authentic precision are also available. Unlock exclusive pieces that are not found elsewhere; they are limited editions, so get yours early.</p>
+        </div>
+        <img class="col-sm-4" src="https://source.unsplash.com/BVYRU3aFKsU" alt="postcards">
       </div>
-      <div>
-        <h4>hours</h4>
-        <p>Monday-saturday 9am-7pm
-          Sunday 10am-6pm</p>
+    </section>
+    <section id="link-location" class="location-color">
+      <div class="row">
+        <img class="col-sm-4" src="https://source.unsplash.com/16q-Yo-rCns" alt="map">
+        <div class="col-sm-8">
+          <div>
+            <h4>location</h4>
+            <p>41 Clarinet St, Vancouver</p>
+          </div>
+          <div>
+            <h4>hours</h4>
+            <p>Monday-saturday 9am-7pm
+              Sunday 10am-6pm</p>
+          </div>
+        </div>
       </div>
     </section>
   </main>
-  <footer>
+  <footer class="main-color">
     <p>copyright © Moriarty Gallery 2023. all rights reserved</p>
   </footer>
 </body>

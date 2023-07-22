@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Judson:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body{
+  font-family: "Judson", serif;
+}
+.main-color{
+  background-color: #7FBCD2;
+}
+.sub-color{
+  background-color: #ADCFD2;
+}
+.location-color{
+  background-color: #DEEFE5;
+}
+.artist-color{
+  background-color: #FFF7D8;
+}
+.artist-photo{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
