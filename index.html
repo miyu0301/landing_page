@@ -43,13 +43,44 @@
     <div data-bs-spy="scroll" data-bs-target="#scrolll-target" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
       <section class="container top-content">
         <div class="main-color top-square-big"></div>
-        <img class="top-image" src="https://source.unsplash.com/ZXMkcHjKx8I" alt="top-art">
+
+        <div class="top-image">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://source.unsplash.com/ZXMkcHjKx8I" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://source.unsplash.com/cKiZU7mARIA" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://source.unsplash.com/nCtcu1s2BOs" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://source.unsplash.com/6h8YpV3EV7Y" class="d-block w-100 img-fluid" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+
+        <!-- <img class="top-image" src="https://source.unsplash.com/ZXMkcHjKx8I" alt="top-art"> -->
         <div class="main-color top-square-small"></div>
-        <div class="main-color top-text">
-          <p class="font-big">Delicate Art,<br>Boundless World.</p>
-          <p class="font-midium">7.4.2033 - 27.7.2033</p>
-          <p class="font-small">Feeling an infinite world of boundless freedom through delicate brushstrokes, we proudly present an art gallery exhibition.</p>
-          <button type="button" class="btn btn-outline-dark px-4 py-2 my-2">Buy Ticket</button>
+        <div class="container">
+          <div class="main-color top-text">
+            <p class="font-big lh-1">Delicate Art,<br>Boundless World.</p>
+            <p class="font-midium lh-1">7.4.2033 - 27.7.2033</p>
+            <p class="font-small lh-1">Feeling an infinite world of boundless freedom through delicate brushstrokes, we proudly present an art gallery exhibition.</p>
+            <button type="button" class="btn btn-outline-dark btn-lg">Buy Ticket</button>
+          </div>
         </div>
       </section>
       <section id="link-about" class="about-color">
@@ -97,11 +128,11 @@
             <img class="col-xs-12 col-sm-3" src="https://source.unsplash.com/16q-Yo-rCns" alt="map">
             <div class="col-xs-12 col-sm-9 ps-sm-5 pt-5 pt-sm-0 d-flex flex-column justify-content-center text-center text-sm-start">
               <div>
-                <h3>Location</h3>
+                <h1>Location</h1>
                 <p class="font-base">41 Clarinet St, Vancouver</p>
               </div>
               <div>
-                <h3>Hours</h3>
+                <h1>Hours</h1>
                 <p class="font-base">Monday - Friday : 9am - 7pm <br>
                   Saturday - Sunday : 10am - 6pm</p>
               </div>
